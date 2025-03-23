@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "name": "Anita Chaudhary",
+  "launch_path": "/",
+  "description": "Welcome to Anita Bakery Udhyog! We offer delicious cakes, pastries, cookies, bread, and more—made with love and the finest ingredients. Perfect for celebrations or sweet cravings. Visit us for fresh flavors and follow us for the latest treats and offers!",
+  'theme_color':'#BD5D38',
+  'background_color':'#ffffff',
+  'start_url':'/index.html',
+  "icons": {
+    "128": "/images/touch/icon-128x128.png"
+  },
+  "developer": {
+    "name": "Paras Nath Chaudhary",
+    "url": "https://parasnath.com.np"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Anita Bakery Udhyog",
+      "description": "Welcome to Anita Bakery Udhyog! We offer delicious cakes, pastries, cookies, bread, and more—made with love and the finest ingredients. Perfect for celebrations or sweet cravings. Visit us for fresh flavors and follow us for the latest treats and offers!"
+    }
+  }
+}
