@@ -126,7 +126,7 @@
                     <div class="fact-item bg-light rounded text-center h-100 p-5">
                         <i class="fa fa-certificate fa-4x text-primary mb-4"></i>
                         <p class="mb-2">Years Experience</p>
-                        <h1 class="display-5 mb-0" data-toggle="counter-up">50</h1>
+                        <h1 class="display-5 mb-0" id="years-of-experience" data-toggle="counter-up">1</h1>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.3s">
@@ -312,6 +312,9 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
+    <script>
+        document.getElementById("years-of-experience").textContent = new Date().getFullYear()-2021;
+      </script>
     <script src="js/main.js"></script>
 </body>
 
