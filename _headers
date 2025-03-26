@@ -1,4 +1,5 @@
 /*
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
-  Feature-Policy: geolocation 'none'; camera 'none'; microphone 'none'  
+  Feature-Policy: geolocation 'none'; camera 'none'; microphone 'none'
+  Referrer-Policy: strict-origin
