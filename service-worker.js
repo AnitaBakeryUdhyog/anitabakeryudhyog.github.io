@@ -11,14 +11,16 @@ self.addEventListener('install', function(e) {
      return cache.addAll([
        '/',
        '/index.html',
-       '/css/resume.min.css',
-       '/vendor/bootstrap/css/bootstrap.min.css',
-       '/vendor/fontawesome-free/css/all.min.css',
-       'vendor/jquery/jquery.min.js',
-       '/vendor/bootstrap/js/bootstrap.bundle.min.js',
-       '/vendor/jquery-easing/jquery.easing.min.js',
-       '/js/resume.min.js',
-       '/img/profile.jpg'
+       '/css/style.css',
+       '/css/bootstrap.min.css',
+       '/js/main.js',
+       '/img/about-1.jpg',
+       '/img/about-2.jpg',
+       '/img/anita.jpg',
+       '/img/carousel-1.jpg',
+       '/img/carousel-2.jpg',
+       '/img/paras.jpg',
+       '/img/russel.jpg'
      ]).then(() => self.skipWaiting());
    })
  );
